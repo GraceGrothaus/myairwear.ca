@@ -1,6 +1,6 @@
 const teamMembers = [
     {
-        name: "Mark Gordon",
+        name: "Dr. Mark Gordon",
         image: "./team-members/mark-gordon.jpg",
         description: "Gordon, collaborator, is an Associate Professor at York University who researches atmospheric pollution, emissions, and transport, including studies focussed on smokestack dispersion, traffic emissions, and black carbon particulate.",
         links: [
@@ -15,9 +15,9 @@ const teamMembers = [
         ]
     },
     {
-        name: "Gerd Grau",
+        name: "Dr. Gerd Grau",
         image: "./team-members/gerd-grau.jpg",
-        description: "Grau, Co-Principal Investigator (Co-PI), is an Associate Professor in the Department of Electrical Engineering and Computer Science at York University and the Academic Director of the York University Microfabrication Facility (YMF). His research group in the Electronics Additive Manufacturing (E-AM) Lab focuses on additive manufacturing (AM), printed electronics, and laser-induced graphene (LIG) to fabricate electronics such as sensors with completely new geometries and properties, including on flexible substrates and in 3D systems.",
+        description: "Grau is an Associate Professor in the Department of Electrical Engineering and Computer Science at York University and the Academic Director of the York University Microfabrication Facility (YMF). His research group in the Electronics Additive Manufacturing (E-AM) Lab focuses on additive manufacturing (AM), printed electronics, and laser-induced graphene (LIG) to fabricate electronics such as sensors with completely new geometries and properties, including on flexible substrates and in 3D systems.",
         links: [
             {
                 name: "LinkedIn",
@@ -34,9 +34,9 @@ const teamMembers = [
         ]
     },
     {
-        name: "Grace Grothaus",
+        name: "Dr. Grace Grothaus",
         image: "./team-members/grace-grothaus.jpg",
-        description: "Grothaus, postdoctoral researcher, lead artist and a project lead. She is a computational media artist whose internationally exhibited installations explore human-plant relationships, climate change, and the connections between built and natural systems.",
+        description: "Grothaus, postdoctoral researcher, is the principal investigator and primary driver of We Are Air Aware. She conceived the project, designed the research framework, and is responsible for its overall intellectual direction, implementation, and integration. She is a computational media artist whose internationally exhibited installations explore human-plant relationships, climate change, and the connections between built and natural systems.",
         links: [
             {
                 name: "LinkedIn",
@@ -53,23 +53,10 @@ const teamMembers = [
         ] 
     },
     {
-        name: "Mark-David Hosale",
+        name: "Dr. Mark-David Hosale",
         image: "./team-members/mark-david-hosale.jpg",
-        description: "Hosale, the Named Principal Investigator (NPI), is a computational artist and composer. He is an Associate Professor of Computational Arts at York University. Founder of the nD::StudioLab, his research-creation work is dedicated to art-science exploration, computational art, and interactive architecture. In his practice he integrates hardware, software, and digital fabrication to create immersive experiences that blur the line between the virtual and the real.",
-        links: [
-            {
-                name: "Home Page",
-                link:"https://www.mdhosale.com/",
-            },
-            {
-                name: "nD::StudioLab",
-                link:"https://www.ndstudiolab.com/",
-            },
-            {
-                name: "ResearchGate",
-                link:"https://www.researchgate.net/profile/Mark-David-Hosale",
-            }
-        ] 
+        description: "Hosale, previous PhD supervisor, is a computational artist and composer. He is an Associate Professor of Computational Arts at York University.",
+        links: []
     },
     {
         name: "Ranee Lee",
@@ -91,7 +78,7 @@ const teamMembers = [
         ]
     },
     {
-        name: "Joel Ong",
+        name: "Dr. Joel Ong",
         image: "./team-members/joel-ong.jpg",
         description: "Ong, collaborator, is a computational biomedia artist and Associate Professor at York University whose internationally recognized work blends sound, science, and technology through installations, residencies, and community-based sensing projects.",
         links: [
@@ -106,7 +93,7 @@ const teamMembers = [
         ]
     },
     {
-        name: "Enamul Hoque Prince",
+        name: "Dr. Enamul Hoque Prince",
         image: "./team-members/enamul-hoque-prince.jpg",
         description: "Prince, collaborator, is is an Assistant Professor and Director of the School of Information Technology at York University, leading the CFI- and ORF-funded Intelligent Visualization Lab, with research on information overload through visualization, HCI, and NLP.",
         links: [
@@ -194,10 +181,15 @@ const teamMembers = [
         ]
     },
     {
-        name: "Shital Desai",
+        name: "Dr. Shital Desai",
         image: "./team-members/shital-desai.jpg",
-        description: "Dr. Desai is a collaborator on the project.",
-        links: []
+        description: "Dr. Desai, collaborator, is an Associate Professor in Interaction Design at York University and the Director of the Social and Technological Systems (SaTS) Lab. She is a collaborator on the project and is supervising Dr. Grothaus's postdoctoral fellowship.",
+        links: [
+            {
+                name: "SaTS Lab",
+                link:"https://sats.lab.yorku.ca/",
+            }
+        ]
     },
     
 ];
