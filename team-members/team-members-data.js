@@ -1,5 +1,35 @@
 const teamMembers = [
     {
+        name: "Dr. Grace Grothaus",
+        image: "./team-members/grace-grothaus.jpg",
+        description: "Grothaus, postdoctoral researcher, is the principal investigator and primary driver of We Are Air Aware. She conceived the project, designed the research framework, and is responsible for its overall intellectual direction, implementation, and integration. She is a computational media artist whose internationally exhibited installations explore human-plant relationships, climate change, and the connections between built and natural systems.",
+        links: [
+            {
+                name: "LinkedIn",
+                link:"https://www.linkedin.com/in/grace-grothaus-aa98b7227/?originalSubd",
+            },
+            {
+                name: "gracegrothaus.net",
+                link:"https://www.gracegrothaus.net/",
+            },
+            {
+                name: "ResearchGate",
+                link:"https://www.researchgate.net/profile/Grace-Grothaus-2",
+            }
+        ] 
+    },
+    {
+        name: "Dr. Shital Desai",
+        image: "./team-members/shital-desai.jpg",
+        description: "Dr. Desai, collaborator, is an Associate Professor in Interaction Design at York University and the Director of the Social and Technological Systems (SaTS) Lab. She is a collaborator on the project and is supervising Dr. Grothaus's postdoctoral fellowship.",
+        links: [
+            {
+                name: "SaTS Lab",
+                link:"https://sats.lab.yorku.ca/",
+            }
+        ]
+    },
+    {
         name: "Dr. Mark Gordon",
         image: "./team-members/mark-gordon.jpg",
         description: "Gordon, collaborator, is an Associate Professor at York University who researches atmospheric pollution, emissions, and transport, including studies focussed on smokestack dispersion, traffic emissions, and black carbon particulate.",
@@ -32,31 +62,6 @@ const teamMembers = [
                 link:"https://lassonde.yorku.ca/users/grau",
             }
         ]
-    },
-    {
-        name: "Dr. Grace Grothaus",
-        image: "./team-members/grace-grothaus.jpg",
-        description: "Grothaus, postdoctoral researcher, is the principal investigator and primary driver of We Are Air Aware. She conceived the project, designed the research framework, and is responsible for its overall intellectual direction, implementation, and integration. She is a computational media artist whose internationally exhibited installations explore human-plant relationships, climate change, and the connections between built and natural systems.",
-        links: [
-            {
-                name: "LinkedIn",
-                link:"https://www.linkedin.com/in/grace-grothaus-aa98b7227/?originalSubd",
-            },
-            {
-                name: "gracegrothaus.net",
-                link:"https://www.gracegrothaus.net/",
-            },
-            {
-                name: "ResearchGate",
-                link:"https://www.researchgate.net/profile/Grace-Grothaus-2",
-            }
-        ] 
-    },
-    {
-        name: "Dr. Mark-David Hosale",
-        image: "./team-members/mark-david-hosale.jpg",
-        description: "Hosale, previous PhD supervisor, is a computational artist and composer. He is an Associate Professor of Computational Arts at York University.",
-        links: []
     },
     {
         name: "Ranee Lee",
@@ -116,7 +121,7 @@ const teamMembers = [
     {
         name: "Basak Babadagi",
         image: "./team-members/basak-babadagi.jpg",
-        description: "Babadagi, student research assistant, is a Earth & Space Science & Engineering undergraduate student at York University, working on atmospheric modeling of black carbon air pollution through a research position in Dr. Mark Gordon’s Air Pollution Lab.",
+        description: "Babadagi, student research assistant, is a Earth & Space Science & Engineering undergraduate student at York University, working on atmospheric modeling of black carbon air pollution through a research position in Dr. Mark Gordon's Air Pollution Lab.",
         links: [
             {
                 name: "LinkedIn",
@@ -142,7 +147,7 @@ const teamMembers = [
     {
         name: "Sabrina Huffman",
         image: "./team-members/sabrina-huffman.jpg",
-        description: "Huffman is an undergraduate Industrial Design student at OCAD University. Her work focuses on co-design and human-centred design practices with an emphasis on understanding people’s needs and creating meaningful, user-driven solutions.",
+        description: "Huffman is an undergraduate Industrial Design student at OCAD University. Her work focuses on co-design and human-centred design practices with an emphasis on understanding people's needs and creating meaningful, user-driven solutions.",
         links: [
             {
                 name: "LinkedIn",
@@ -181,15 +186,10 @@ const teamMembers = [
         ]
     },
     {
-        name: "Dr. Shital Desai",
-        image: "./team-members/shital-desai.jpg",
-        description: "Dr. Desai, collaborator, is an Associate Professor in Interaction Design at York University and the Director of the Social and Technological Systems (SaTS) Lab. She is a collaborator on the project and is supervising Dr. Grothaus's postdoctoral fellowship.",
-        links: [
-            {
-                name: "SaTS Lab",
-                link:"https://sats.lab.yorku.ca/",
-            }
-        ]
+        name: "Dr. Mark-David Hosale",
+        image: "./team-members/mark-david-hosale.jpg",
+        description: "Hosale, previous PhD supervisor, is a computational artist and composer. He is an Associate Professor of Computational Arts at York University.",
+        links: []
     },
     
 ];
